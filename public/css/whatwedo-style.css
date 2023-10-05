@@ -1,0 +1,134 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg-color {
+    display: flex;
+    align-items: center;
+    background-color: rgb(91, 172, 91);
+    border-bottom: 2px solid black;
+}
+
+.navbar-logo {
+    width: 250px;
+    height: 150px;
+}
+
+.flex-space {
+    flex-grow: 1;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Work Sans';
+}
+
+.row2 {
+    background: #e2efd9;
+    font-family: 'Trocchi';
+}
+
+h3 {
+    color: #7c795d;
+}
+
+footer {
+    background: #01250a;
+    height: 250px;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+}
+
+footer img {
+    width: 80px;
+}
+
+h1 {
+    color: #7c795d;
+    font-family: 'Trocchi', serif;
+    font-size: 35px;
+    font-weight: normal;
+    line-height: 48px;
+    margin: 0;
+}
+
+.logo-contact img {
+    width: 250px;
+    height: 150px;
+    margin-left: 100px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.contact-details img {
+    width: 40px;
+}
+
+.contact-details a {
+    margin-left: 20px;
+}
+
+.nav-btn {
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trocchi', serif;
+    transition: 3s;
+}
+
+.nav-btn:hover {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(19, 148, 19);
+    transition: 0.5s;
+}
+
+.img {
+    margin-left: 400px;
+}
+
+.data {
+    display: flex;
+    flex-direction: row;
+}
+
+h4 {
+    color: #7c795d;
+    font-family: 'Trocchi', serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 0;
+}
+
+.row2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
